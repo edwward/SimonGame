@@ -8,7 +8,7 @@ $(document).keypress(function () {
   if (!isFirstPress) {    //first press is true
     $("#level-title").text("Level " + level);   //set the level
     nextSequence();   //for the first sequence - level 1
-    // isFirstPress = true;   
+    
   }
 });
 
